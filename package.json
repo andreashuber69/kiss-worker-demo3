@@ -26,7 +26,7 @@
     "ci": "npm run build"
   },
   "devDependencies": {
-    "kiss-worker": "^0.1.0",
-    "vite": "^5.2.0"
+    "kiss-worker": "^1.0.0",
+    "vite": "^5.2.10"
   }
 }
