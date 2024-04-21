@@ -15,7 +15,7 @@ Demonstrates the simplest way to use `kiss-worker`, see
 [Getting Started](https://www.npmjs.com/package/kiss-worker#getting-started).
 
 You can play with this on [StackBlitz](https://stackblitz.com/~/github.com/andreashuber69/kiss-worker-demo1) or on
-your computer (requires [node](https://nodejs.org/en/download) >=18.19):
+your computer (requires [node](https://nodejs.org/en/download) >=18.18):
 
 ```bash
 git clone https://github.com/andreashuber69/kiss-worker-demo1.git
