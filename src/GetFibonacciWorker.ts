@@ -4,10 +4,10 @@ import { implementWorker } from "kiss-worker";
 const getFibonacci = (n: number): number =>
     (n < 2) ? Math.floor(n) : getFibonacci(n - 1) + getFibonacci(n - 2);
 
-export const FibonacciWorker = implementWorker(
+export const GetFibonacciWorker = implementWorker(
     // A function that creates a web worker running this script
     () => new Worker(
-        new URL("FibonacciWorker.js", import.meta.url),
+        new URL("GetFibonacciWorker.js", import.meta.url),
         { type: "module" }
     ),
     // Our worker function
