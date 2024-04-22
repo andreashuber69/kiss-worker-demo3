@@ -6,7 +6,7 @@
     <script type="module">
       import { GetFibonacciWorker } from "./src/GetFibonacciWorker.ts";
       // Start a new worker thread waiting for work.
-      const worker = new FibonacciWorker();
+      const worker = new GetFibonacciWorker();
       // Send the argument (40) to the worker thread, where it will be
       // passed to our worker function. In the mean time we're awaiting
       // the returned promise, which will eventually fulfill with the
