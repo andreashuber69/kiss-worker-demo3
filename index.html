@@ -8,9 +8,9 @@
       // Start a new worker thread waiting for work.
       const worker = new GetFibonacciWorker();
       // Send the argument (40) to the worker thread, where it will be
-      // passed to our worker function. In the mean time we're awaiting
-      // the returned promise, which will eventually fulfill with the
-      // result calculated on the worker thread.
+      // passed to our function. In the mean time we're awaiting the
+      // returned promise, which will eventually fulfill with the result
+      // calculated on the worker thread.
       const result = await worker.execute(40);
       document.querySelector("h1").textContent = `${result}`;
     </script>

@@ -1,6 +1,6 @@
 import { implementWorker } from "kiss-worker";
 
-// The function we want to execute on a worker thread (worker function)
+// The function we want to execute on a worker thread
 const getFibonacci = (n: number): number =>
     (n < 2) ? Math.floor(n) : getFibonacci(n - 1) + getFibonacci(n - 2);
 
@@ -10,6 +10,5 @@ export const GetFibonacciWorker = implementWorker(
         new URL("GetFibonacciWorker.js", import.meta.url),
         { type: "module" }
     ),
-    // Our worker function
     getFibonacci,
 );
