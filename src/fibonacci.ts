@@ -8,4 +8,5 @@ const fibonacci = (n: number): number =>
 // implementFunctionWorkerExternal
 serveFunction(fibonacci);
 
+// Export the type only
 export type { fibonacci };
