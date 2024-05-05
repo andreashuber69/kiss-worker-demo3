@@ -12,7 +12,7 @@
 </p>
 
 Demonstrates the most general way to use `kiss-worker` with a single function, see
-[Getting Started](https://www.npmjs.com/package/kiss-worker#example-3-external-single-function).
+[Worker Code Isolation](https://www.npmjs.com/package/kiss-worker#worker-code-isolation).
 
 You can play with this on [StackBlitz](https://stackblitz.com/~/github.com/andreashuber69/kiss-worker-demo3) or on
 your computer (requires [node](https://nodejs.org/en/download) >=18.18):
